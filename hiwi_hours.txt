@@ -1,0 +1,84 @@
+%% WORK HOURS
+
+Week 1
+Wed 18/05: h. 15-19 (office)
+- set up computer, spm and data
+Fri 20/05: h. 09.30-11 (home)
+- preprocessing without initial reorientation of struct/func scans (therefore the normalization step fails)
+Sat 21/05: h. 10-13.30 (home)
+- preprocessing with initial reorientation of struct/func scans to fit the TPM. reorientation parameters (eyeballed, not perfect) are saved in “reorientSettings_CT.mat” vector. wanted to use the transformation matrix M itself, but could not figure out how to input it through the GUI.
+
+Week 2
+Fri 03/06: h. 16-20 (office)
+- for next time, try two whole analysis pipelines: one sequential (saving each batch file for each module), the other one parallel by defining all the modules for all sessions in one whole batch editor. delete previous non-manually corrected analysis.
+
+Week 3
+Wed 08/06: h. 11.30-13 (office)
+Fri 10/06: h. 15.30-17 (office)
+- went through initial preprocessing steps with Nikhil
+
+Week 4
+Mon 13/06: h. 10.30-11.45 (office)
+- saved and executed batch files for separate processing steps and for whole pipeline
+Wed 15/06: h. 11.15-13.45 (office)
+Thurs 16/06: h. 15.15-18 (office)
+
+Week 5
+Mon 20/06: h. 14-15.30 (office)
+- batch scripting for dicom file import and more!
+Tue 21/06: h. 11.30-15.30 (office)
+Wed 22/06: h. 11.30-13.30 (office)
+Thurs 23/06: h. 11.30-15.30 (office)
+- batch script finished.
+Sun 26/06: h. 16.30-18.30 (home)
+- ran whole preprocessing pipeline on 5 subjects.
+
+Week 6
+Mon 27/06: h. 13.30-16 (office)
+- debugging script for normalisation
+Tue 28/06: h. 11-13.30 (office)
+Thurs 30/06: h. 12-15 (office)
+
+Week 7
+Mon 04/07: h. 12-13 (office)
+Tue 05/06: h. 12-14 (office)
+Thurs 07/06: h. 12-15 (office)
+
+Week 8
+Tue 12/07: h. 13-14.45 (office)
+Wed 13/07: h. 16.30-18 (office)
+Fri 15/07: h. 13-17 (office)
+- wrote script for single subject analysis and ran first 5 subjects
+
+Week 9
+Mon 18/07: h. 15-16 (office)
+Tue 19/07: h. 11-14 (office)
+- defined contrast manager
+- checked all coregistered slices on remaining subjects (105-117) and finished preprocessing them.
+Wed 20/07: h. 17-19.30 (office)
+Thurs 21/07: h. 14-15 (office)
+
+Week 10
+Mon 25/07: h. 15.30-20 (office)
+- group analysis script (3 one sample t-tests for the main contrasts)
+Tue 26/07: h. 17-19 (office)
+Fri 28/07: h. 15-18 (office)
+- new single subject and group analysis without motion parameter regressors (to see if signal from saccades is reduced because of correlation with head motion)
+
+Week 11
+Mon 01/08: h. 12-14 (office)
+- xjview
+Mon 08/08: h. 12-14 (office)
+- decided tasks for the summer
+
+Week 12
+Wed 17/08: h. 16-19 (office)
+Thurs 18/08: h. 10-18 (office)
+- Mareike explained time course analysis using rfxplot toolbox for spm
+Fri 19/08: h. 13-19 (office)
+- Joana explained ROI mask segmentation using ITK-SNAP
+
+Week 13
+Mon 22/08: h. 13.30-18 (office)
+Tue 23/08: h. 9-16 (office)
+- still working on script for writing SC layers mask and extracting beta values to be compared.
