@@ -1,1 +1,0 @@
-sprintf('Hello world %04d',3)
